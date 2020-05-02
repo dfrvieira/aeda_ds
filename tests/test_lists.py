@@ -1,13 +1,13 @@
 import unittest
 
-class TestSinglyLinkedList(unittest.TestCase):
+class TestSingleLinkedList(unittest.TestCase):
     def setUp(self):
-        self.list = SinglyLinkedList()
+        self.list = SingleLinkedList()
 
 
-class TestDoublyLinkedList(unittest.TestCase):
+class TestDoubleLinkedList(unittest.TestCase):
     def setUp(self):
-        self.list = DoublyLinkedList()
+        self.list = DoubleLinkedList()
         
 
 if __name__ == "__main__":
